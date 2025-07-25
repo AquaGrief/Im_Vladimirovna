@@ -833,7 +833,7 @@ body.dark-theme #scrollTopBtn {
   background-color: #f9f9f9;
   font-family: sans-serif;
   margin-bottom: 0;
-        margin-top: 0 !important;
+  margin-top: 0 !important;
   padding-top: 0 !important;
   position: relative;
   top: 60px;
@@ -870,7 +870,7 @@ body.dark-theme #scrollTopBtn {
   background-color: #f9f9f9;
   font-family: sans-serif;
   margin-bottom: 0;
-          margin-top: 0 !important;
+  margin-top: 0 !important;
   padding-top: 0 !important;
   position: relative;
   top: 1px;
