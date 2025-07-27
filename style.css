@@ -887,3 +887,133 @@ body.dark-theme #scrollTopBtn {
   border-radius: 8px;
   overflow: hidden;
 }
+
+.info-text-bottom {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 30px 20px;
+  align-items: stretch;
+  margin: 40px 0;
+  padding: 0 20px;
+}
+
+.info-text-bottom > div {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  padding: 28px 22px;
+  transition: box-shadow 0.3s, transform 0.2s;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.info-text-bottom > div:hover {
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+  transform: translateY(-4px) scale(1.03);
+}
+
+.info-text-bottom h2 {
+  font-size: 20px;
+  color: #0d61d7;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+
+.info-text-bottom p {
+  font-size: 15px;
+  color: #444;
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* Адаптивность для мобильных */
+@media (max-width: 900px) {
+  .info-text-bottom {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-container,
+  .about-container-two,
+  .about-container-trhee,
+  .about-container-signup {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0 8px;
+  }
+
+  .about-text,
+  .about-text-two {
+    padding: 16px 8px;
+  }
+
+  .about-image,
+  .about-image img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 12px;
+  }
+
+  .info-title h1,
+  .about-container-signup h1 {
+    font-size: 28px;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .info-text-bottom {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 16px;
+    padding: 0 8px;
+  }
+
+  .steps-grid {
+    flex-direction: column;
+    gap: 16px;
+    padding: 0 8px;
+  }
+
+  .step-item {
+    max-width: 100%;
+    padding: 20px 12px;
+  }
+
+  .cards-row {
+    flex-direction: column;
+    gap: 16px;
+    padding: 0 8px;
+    max-width: 100%;
+  }
+
+  .card-block {
+    width: 100%;
+    padding: 16px 8px;
+  }
+
+  .links-row {
+    flex-direction: column;
+    gap: 16px;
+    padding: 0 8px;
+    max-width: 100%;
+  }
+
+  .links-block {
+    flex-direction: column;
+    gap: 16px;
+    padding: 8px;
+  }
+
+  .main-voronevich,
+  .main-buttons {
+    max-width: 100%;
+    padding: 0 8px;
+  }
+}
