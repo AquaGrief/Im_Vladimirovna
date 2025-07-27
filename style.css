@@ -1,6 +1,6 @@
 /* Общий фон и шрифт */
 body {
-    background-color: #f0f8ff; /* светло-голубой, мягкий фон */
+    background-color: #f0f8ff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
@@ -8,7 +8,7 @@ body {
 
 /* Хедер и футер */
 .header-box, .footer-box {
-    background-color: #006aff; /* тёмно-серый */
+    background-color: #006aff;
     display: flex;
     justify-content: center;
     padding: 20px 0;
@@ -28,7 +28,7 @@ nav {
 }
 
 .navigation:hover {
-    color: #2200ff; /* светло-голубой при наведении */
+    color: #2200ff;
 }
 
 .main-voronevich {
@@ -46,7 +46,6 @@ nav {
     justify-content: center;
 }
 
-
 /* Секция плюсов */
 .plusi {
     background-color: #ffffff;
@@ -59,7 +58,7 @@ nav {
 }
 
 .plusi h1, .plusi h2 {
-    color: #1e40af; /* глубокий синий */
+    color: #1e40af;
     margin: 0;
 }
 
@@ -70,23 +69,6 @@ nav {
 .plusi li {
     color: #1f2937;
     line-height: 1.6;
-}
-
-/* Адаптивность */
-@media (max-width: 600px) {
-    nav {
-        flex-direction: column;
-        gap: 20px;
-        align-items: center;
-    }
-
-    .navigation {
-        font-size: 16px;
-    }
-
-    .plusi {
-        padding: 20px;
-    }
 }
 
 .main{
@@ -166,7 +148,7 @@ html {
 }
 body.dark-theme {
     background-color: #71717160;
-    color: #c4c4c4; /* весь основной текст */
+    color: #c4c4c4;
 }
 
 body.dark-theme h1,
@@ -184,7 +166,7 @@ body.dark-theme .prices-section {
 }
 
 body.dark-theme .navigation {
-    color: #d6d6d6; /* ссылки можно оставить светло-серыми */
+    color: #d6d6d6;
 }
 
 body.dark-theme .price-card {
@@ -238,24 +220,24 @@ body.dark-theme #scrollTopBtn {
 }
 
 .button-youtube {
-    display: flex; /* Включаем flexbox */
-    justify-content: center; /* Центрируем по горизонтали */
-    align-items: center; /* Центрируем по вертикали */
-    height: 20vh; /* Задаём высоту контейнера на весь экран (для центрирования по вертикали) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
 }
 
 .button-container {
-    display: flex; /* Включаем flexbox */
-    justify-content: center; /* Центрируем по горизонтали */
-    align-items: center; /* Центрируем по вертикали */
-    height: 20vh; /* Задаём высоту контейнера на весь экран (для центрирования по вертикали) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
 }
 
 .button-facebook {
-    display: flex; /* Включаем flexbox */
-    justify-content: center; /* Центрируем по горизонтали */
-    align-items: center; /* Центрируем по вертикали */
-    height: 20vh; /* Задаём высоту контейнера на весь экран (для центрирования по вертикали) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
 }
 
 .youtube-button {
@@ -339,10 +321,10 @@ body.dark-theme #scrollTopBtn {
   display: flex;
   align-items: flex-start;
   gap: 20px;
-  max-width: 900px; /* чтобы совпадало с main */
-  margin: 40px auto; /* отступы как у main */
+  max-width: 900px;
+  margin: 40px auto;
   padding: 0 20px;
-  justify-content: center; /* добавь! */
+  justify-content: center;
 }
 
 .side-img {
@@ -382,8 +364,8 @@ body.dark-theme #scrollTopBtn {
 
 .row-container {
   display: flex;
-  justify-content: space-between; /* или center / flex-start / space-around */
-  gap: 20px; /* расстояние между блоками */
+  justify-content: space-between;
+  gap: 20px;
   padding: 20px;
 }
 
@@ -426,7 +408,7 @@ body.dark-theme #scrollTopBtn {
   font-size: 40px;
   font-weight: 2000;
   letter-spacing: 2px;
-  line-height: 1.1;   /* чуть плотнее высота строки */
+  line-height: 1.1;
   font-variant: small-caps;
   text-align: left;
   padding-top: 150px;
@@ -439,7 +421,7 @@ body.dark-theme #scrollTopBtn {
   font-weight: 2000;
   letter-spacing: 2px;
   margin-top: 50px;
-  line-height: 1.1;   /* чуть плотнее высота строки */
+  line-height: 1.1;
 }
 
 .hero h3 {
@@ -453,7 +435,7 @@ body.dark-theme #scrollTopBtn {
 .hero .description {
   display: block;
   text-align: left;
-  margin: 50px auto 0 auto; /* сверху 20px, по бокам авто, снизу 0 */
+  margin: 50px auto 0 auto;
   font-size: 18px;
   line-height: 1.6;
   max-width: 700px;
@@ -468,7 +450,7 @@ body.dark-theme #scrollTopBtn {
   background-color: #f9f9f9;
   font-family: sans-serif;
   margin-bottom: 0;
-          margin-top: 0 !important;
+  margin-top: 0 !important;
   padding-top: 0 !important;
   position: relative;
   top: 1px;
@@ -525,17 +507,17 @@ body.dark-theme #scrollTopBtn {
     font-size: 24px;
 }
 
-    .scroll-button {
-      top: 20px;
-      left: 20px;
-      padding: 10px 20px;
-        display: inline-block;
+.scroll-button {
+  top: 20px;
+  left: 20px;
+  padding: 10px 20px;
+  display: inline-block;
   background-color: #2000a0;
   color: white;
   padding: 15px 30px;
   font-size: 18px;
   font-weight: bold;
-  border: none; /* убираем стандартную границу кнопки */
+  border: none;
   border-radius: 30px;
   text-align: center;
   text-decoration: none;
@@ -543,14 +525,14 @@ body.dark-theme #scrollTopBtn {
   transition: background-color 0.3s, transform 0.2s;
   cursor: pointer;
   margin-top: 100px;
-    }
+}
 
-    .scroll-button:hover{
-          background-color: #3a00d1;
+.scroll-button:hover{
+  background-color: #3a00d1;
   transform: translateY(-2px);
-    }
+}
 
- .about-signup {
+.about-signup {
   padding: 60px 20px;
   background-color: #f9f9f9;
   font-family: sans-serif;
@@ -573,7 +555,7 @@ body.dark-theme #scrollTopBtn {
     align-items: center;
     text-align: center;
     padding-left: 200px;
-    font-size: 50px;    
+    font-size: 50px;
 }
 
 .telegram-button-kouch {
@@ -606,7 +588,6 @@ body.dark-theme #scrollTopBtn {
   max-width: 180px;
 }
 
-
 .blocks-kouch {
   position: relative;
   display: flex;
@@ -637,7 +618,7 @@ body.dark-theme #scrollTopBtn {
   font-size: 40px;
   font-weight: 2000;
   letter-spacing: 2px;
-  line-height: 1.1;   /* чуть плотнее высота строки */
+  line-height: 1.1;
   font-variant: small-caps;
   text-align: left;
   padding: 0px auto;
@@ -649,7 +630,7 @@ body.dark-theme #scrollTopBtn {
   font-weight: 2000;
   letter-spacing: 2px;
   margin-top: 50px;
-  line-height: 1.1;   /* чуть плотнее высота строки */
+  line-height: 1.1;
 }
 
 .hero-bottom h3 {
@@ -665,7 +646,7 @@ body.dark-theme #scrollTopBtn {
 .hero-bottom .description-bottom {
   display: block;
   text-align: left;
-  margin: 50px auto 0 auto; /* сверху 20px, по бокам авто, снизу 0 */
+  margin: 50px auto 0 auto;
   font-size: 18px;
   line-height: 1.6;
   max-width: 700px;
@@ -689,14 +670,13 @@ body.dark-theme #scrollTopBtn {
   color: #000000;
   padding: 120px 200px;
   z-index: 1;
-  
 }
 
 .info-block h1 {
   font-size: 40px;
   font-weight: 2000;
   letter-spacing: 2px;
-  line-height: 1.1;   /* чуть плотнее высота строки */
+  line-height: 1.1;
   font-variant: small-caps;
   text-align: left;
   padding: 0px auto;
@@ -708,7 +688,7 @@ body.dark-theme #scrollTopBtn {
   font-weight: 2000;
   letter-spacing: 2px;
   margin-top: 50px;
-  line-height: 1.1;   /* чуть плотнее высота строки */
+  line-height: 1.1;
 }
 
 .info-block h3 {
@@ -721,7 +701,7 @@ body.dark-theme #scrollTopBtn {
 .info-block .description-bottom {
   display: block;
   text-align: left;
-  margin: 50px auto 0 auto; /* сверху 20px, по бокам авто, снизу 0 */
+  margin: 50px auto 0 auto;
   font-size: 18px;
   line-height: 1.6;
   max-width: 700px;
@@ -742,7 +722,7 @@ body.dark-theme #scrollTopBtn {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-    margin-top: 0 !important;
+  margin-top: 0 !important;
   padding-top: 0 !important;
   position: relative;
   top: -425px;
@@ -764,7 +744,6 @@ body.dark-theme #scrollTopBtn {
   word-break: break-word;
 }
 
-
 .info-container-block{
     position: relative;
   height: 100vh;
@@ -774,7 +753,7 @@ body.dark-theme #scrollTopBtn {
   background-color: #f7f7f7;
   padding: 60px 20px;
   text-align: center;
-      margin-top: 0 !important;
+  margin-top: 0 !important;
   padding-top: 0 !important;
   position: relative;
   top: -200px;
@@ -863,8 +842,6 @@ body.dark-theme #scrollTopBtn {
   padding: 30px 40px;
 }
 
-
-
 .about-trhee {
   padding: 60px 20px;
   background-color: #f9f9f9;
@@ -926,94 +903,116 @@ body.dark-theme #scrollTopBtn {
   color: #444;
   margin: 0;
   line-height: 1.6;
+} 
+
+.about-text h1, .about-text h2, .about-text-two h2 {
+  font-size: 28px;
+  color: #0d61d7;
+  font-weight: 700;
+  margin-bottom: 18px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
 }
 
-/* Адаптивность для мобильных */
-@media (max-width: 900px) {
-  .info-text-bottom {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
+.about-text h3, .about-text-two h3 {
+  font-size: 20px;
+  color: #444;
+  font-weight: 500;
+  margin-bottom: 14px;
+}
+
+.about-text p, .about-text-two p {
+  font-size: 17px;
+  color: #333;
+  margin-bottom: 16px;
+  line-height: 1.7;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 0.01em;
+}
+
+.about-text, .about-text-two {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.07);
+  padding: 32px 28px;
+  margin-bottom: 24px;
+}
+
+.steps-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.step-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  padding: 32px 28px;
+  transition: box-shadow 0.3s, transform 0.2s;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.step-card:hover {
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+  transform: translateY(-4px) scale(1.03);
+}
+
+.step-number {
+  background-color: #ffd700;
+  color: black;
+  font-weight: bold;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  border-radius: 50%;
+  text-align: center;
+  margin-bottom: 14px;
+  font-size: 18px;
+}
+
+.step-card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #0d61d7;
+}
+
+.step-card p {
+  font-size: 16px;
+  color: #444;
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* 🔽 Мобильная адаптация */
+@media (max-width: 600px) {
+  .steps-cards {
+    padding: 0 12px;
     gap: 20px;
   }
-}
 
-@media (max-width: 600px) {
-  .about-container,
-  .about-container-two,
-  .about-container-trhee,
-  .about-container-signup {
-    flex-direction: column;
-    align-items: stretch;
-    padding: 0 8px;
+  .step-card {
+    padding: 24px 20px;
   }
 
-  .about-text,
-  .about-text-two {
-    padding: 16px 8px;
+  .step-number {
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 16px;
   }
 
-  .about-image,
-  .about-image img {
-    max-width: 100%;
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-    border-radius: 12px;
+  .step-card h3 {
+    font-size: 18px;
   }
 
-  .info-title h1,
-  .about-container-signup h1 {
-    font-size: 28px;
-    padding-left: 0;
-    text-align: center;
-  }
-
-  .info-text-bottom {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    gap: 16px;
-    padding: 0 8px;
-  }
-
-  .steps-grid {
-    flex-direction: column;
-    gap: 16px;
-    padding: 0 8px;
-  }
-
-  .step-item {
-    max-width: 100%;
-    padding: 20px 12px;
-  }
-
-  .cards-row {
-    flex-direction: column;
-    gap: 16px;
-    padding: 0 8px;
-    max-width: 100%;
-  }
-
-  .card-block {
-    width: 100%;
-    padding: 16px 8px;
-  }
-
-  .links-row {
-    flex-direction: column;
-    gap: 16px;
-    padding: 0 8px;
-    max-width: 100%;
-  }
-
-  .links-block {
-    flex-direction: column;
-    gap: 16px;
-    padding: 8px;
-  }
-
-  .main-voronevich,
-  .main-buttons {
-    max-width: 100%;
-    padding: 0 8px;
+  .step-card p {
+    font-size: 15px;
   }
 }
