@@ -780,10 +780,11 @@ body.dark-theme #scrollTopBtn {
   padding: 30px 20px;
   max-width: 300px;
   text-align: left;
+  margin: 20px;
 }
 
 .step-number {
-  background-color: #ffd700;
+  background-color: #9a6ae696;
   color: black;
   font-weight: bold;
   width: 32px;
@@ -938,81 +939,3 @@ body.dark-theme #scrollTopBtn {
   margin-bottom: 24px;
 }
 
-.steps-cards {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-.step-card {
-  background: #fff;
-  border-radius: 16px;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
-  padding: 32px 28px;
-  transition: box-shadow 0.3s, transform 0.2s;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.step-card:hover {
-  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
-  transform: translateY(-4px) scale(1.03);
-}
-
-.step-number {
-  background-color: #ffd700;
-  color: black;
-  font-weight: bold;
-  width: 32px;
-  height: 32px;
-  line-height: 32px;
-  border-radius: 50%;
-  text-align: center;
-  margin-bottom: 14px;
-  font-size: 18px;
-}
-
-.step-card h3 {
-  font-size: 20px;
-  font-weight: 700;
-  margin-bottom: 12px;
-  color: #0d61d7;
-}
-
-.step-card p {
-  font-size: 16px;
-  color: #444;
-  margin: 0;
-  line-height: 1.6;
-}
-
-/* 🔽 Мобильная адаптация */
-@media (max-width: 600px) {
-  .steps-cards {
-    padding: 0 12px;
-    gap: 20px;
-  }
-
-  .step-card {
-    padding: 24px 20px;
-  }
-
-  .step-number {
-    width: 28px;
-    height: 28px;
-    line-height: 28px;
-    font-size: 16px;
-  }
-
-  .step-card h3 {
-    font-size: 18px;
-  }
-
-  .step-card p {
-    font-size: 15px;
-  }
-}
