@@ -1495,7 +1495,7 @@ body.dark-theme #scrollTopBtn {
     display: flex;
     align-items: center;
     text-align: center;
-    padding-left: 200px;
+    padding-left: 160px;
     font-size: 50px;
 }
 
@@ -1719,7 +1719,7 @@ body.dark-theme #scrollTopBtn {
   background-color: #f7f7f7;
   border-radius: 12px;
   padding: 30px 20px;
-  max-width: 300px;
+  max-width: 200px;
   text-align: left;
   margin: 20px;
 }
@@ -1820,7 +1820,7 @@ body.dark-theme #scrollTopBtn {
   background: #fff;
   border-radius: 16px;
   box-shadow: 0 4px 16px rgba(0,0,0,0.08);
-  padding: 2px 22px;
+  padding: 1px 22px;
   transition: box-shadow 0.3s, transform 0.2s;
   box-sizing: border-box;
 }
