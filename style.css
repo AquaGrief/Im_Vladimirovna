@@ -1693,7 +1693,7 @@ body.dark-theme #scrollTopBtn {
 .consultation-steps {
   background-color: #f7f7f7;
   padding: 60px 20px;
-  text-align: center;
+
   margin-top: 0 !important;
   padding-top: 0 !important;
   position: relative;
@@ -1809,23 +1809,20 @@ body.dark-theme #scrollTopBtn {
 
 .info-text-bottom {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, auto);
-  gap: 30px 20px;
-  align-items: stretch;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
   margin: 40px 0;
   padding: 0 20px;
+  align-items: stretch;
 }
 
 .info-text-bottom > div {
   background: #fff;
   border-radius: 16px;
   box-shadow: 0 4px 16px rgba(0,0,0,0.08);
-  padding: 28px 22px;
+  padding: 2px 22px;
   transition: box-shadow 0.3s, transform 0.2s;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  box-sizing: border-box;
 }
 
 .info-text-bottom > div:hover {
@@ -1845,7 +1842,7 @@ body.dark-theme #scrollTopBtn {
   color: #444;
   margin: 0;
   line-height: 1.6;
-} 
+}
 
 .about-text h1, .about-text h2, .about-text-two h2 {
   font-size: 28px;
