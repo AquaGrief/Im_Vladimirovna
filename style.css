@@ -949,10 +949,16 @@ body {
 
 /* Хедер и футер */
 .header-box, .footer-box {
-    background-color: #006aff;
-    display: flex;
-    justify-content: center;
-    padding: 20px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #007BFF; /* Синий фон шапки */
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 15px 20px; /* отступы внутри шапки */
+  box-sizing: border-box; /* важно: чтобы padding не выходил за границы */
+  color: white; /* белый текст */
 }
 
 nav {
@@ -1059,6 +1065,8 @@ html {
     color: #333;
     margin: 0 0 15px 0;
 }
+
+
 
 .price-card ul {
     list-style: none;
@@ -1697,7 +1705,7 @@ body.dark-theme #scrollTopBtn {
   margin-top: 0 !important;
   padding-top: 0 !important;
   position: relative;
-  top: -200px;
+  top: -40px;
 }
 
 .steps-title {
@@ -1708,21 +1716,14 @@ body.dark-theme #scrollTopBtn {
 
 .steps-grid {
   display: flex;
-  justify-content: center;
-  gap: 40px;
-  flex-wrap: wrap;
-  max-width: 1200px;
-  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
 }
 
 .step-item {
-  background-color: #f7f7f7;
-  border-radius: 12px;
-  padding: 30px 20px;
-  max-width: 200px;
-  text-align: left;
-  margin: 20px;
-  right: 10000px !important;
+  width: 100%;
+  max-width: 500px; /* или любой фиксированный размер */
 }
 
 .step-number {
