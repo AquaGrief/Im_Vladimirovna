@@ -8,10 +8,11 @@ body {
 
 /* Хедер и футер */
 .header-box, .footer-box {
-    background-color: #006aff;
+    background-image: url(./navtest.jpg);
     display: flex;
     justify-content: center;
     padding: 20px 0;
+    height: 280px;
 }
 
 nav {
@@ -448,6 +449,7 @@ body.dark-theme #scrollTopBtn {
 }
 
 .about {
+  margin: 0 auto;
   padding: 60px 20px;
   background-color: #f9f9f9;
   font-family: sans-serif;
@@ -459,6 +461,7 @@ body.dark-theme #scrollTopBtn {
 }
 
 .about-container {
+  margin: 0 auto;
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
