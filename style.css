@@ -8,11 +8,10 @@ body {
 
 /* Хедер и футер */
 .header-box, .footer-box {
-    background-image: url(./navtest.jpg);
+    background-color: #2200ff;
     display: flex;
     justify-content: center;
     padding: 20px 0;
-    height: 280px;
 }
 
 nav {
@@ -451,14 +450,13 @@ body.dark-theme #scrollTopBtn {
 .about {
   margin: 0 auto;
   padding: 60px 20px;
+  padding-top: 50px !important; /* добавь отступ внутри */
   background-color: #f9f9f9;
   font-family: sans-serif;
   margin-bottom: 0;
-  margin-top: 0 !important;
-  padding-top: 0 !important;
-  position: relative;
-  top: 1px;
+  margin-top: 0 !important; /* пусть будет, но теперь отступ сверху создаёт padding */
 }
+
 
 .about-container {
   margin: 0 auto;
@@ -1704,13 +1702,16 @@ body.dark-theme #scrollTopBtn {
 }
 
 .consultation-steps {
-  background-color: #f7f7f7;
+  background-color: #ffffff;
   padding: 60px 20px;
 
   margin-top: 0 !important;
   padding-top: 0 !important;
   position: relative;
   top: -40px;
+    border: 1px solid #ddd;
+  border-radius: 8px;
+  max-width: 1455px;
 }
 
 .steps-title {
@@ -1793,7 +1794,6 @@ body.dark-theme #scrollTopBtn {
 
 .about-trhee {
   padding: 60px 20px;
-  background-color: #f9f9f9;
   font-family: sans-serif;
   margin-bottom: 0;
   margin-top: 0 !important;
@@ -1821,6 +1821,7 @@ body.dark-theme #scrollTopBtn {
   margin: 40px 0;
   padding: 0 20px;
   align-items: stretch;
+  color: #0d61d7;;
 }
 
 .info-text-bottom > div {
@@ -1913,6 +1914,10 @@ body.dark-theme #scrollTopBtn {
 
 .bottom-navigation h1{
   padding-left: 130px;
+}
+
+body{
+  background-color: #f9f9f9;
 }
 
 /* 🔽 Мобильная адаптация */
